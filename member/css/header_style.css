@@ -1,0 +1,30 @@
+body {
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 80px;
+  background: #343642;
+}
+
+header #cd-logo {
+  float: left;
+  margin: 0 0 0 5%;
+  transform: scale(0.8);
+}
+
+header #cd-logo p{
+	color: #d75069;
+	font-weight: bold;
+	font-size: 2.2rem;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
